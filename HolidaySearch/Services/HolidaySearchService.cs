@@ -1,9 +1,5 @@
 using HolidaySearch.Models;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 
 namespace HolidaySearch.Services
 {
@@ -20,7 +16,26 @@ namespace HolidaySearch.Services
 
         public List<Package> SearchHolidays(string departingFrom, string travelingTo, DateTime departureDate, int duration)
         {
-            
+            var matchingFlights = Flights.Where(f => (departingFrom == "Any" || f.From == departingFrom)
+                            && f.To == travelingTo
+                            && f.DepartureDate == departureDate).ToList();
+
+            var matchingHotels = Hotels.Where(h => h.LocalAirports.Contains(travelingTo)
+                            && h.ArrivalDate == departureDate
+                            && h.Nights == duration).ToList();
+
+            var holidays = new List<Package>();
+
+            foreach (var flight in matchingFlights)
+            {
+                foreach (var hotel in matchingHotels)
+                {
+                    holidays.Add(new Package { Flight = flight, Hotel = hotel });
+                }
+            }
+
+            return holidays.OrderBy(h => h.TotalPrice).ToList();
         }
     }
 }
+
