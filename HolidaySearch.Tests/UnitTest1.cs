@@ -1,5 +1,5 @@
 using HolidaySearch.Models;
-using HolidaySearch.Service
+using HolidaySearch.Services;
 using System;
 using System.IO;
 using System.Linq;

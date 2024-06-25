@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DpuxpO+GFrQWfAqqwziQ5f1KZKTqYAjJViWKzV+6uJmp1thXGq6JofVB0SfnPG3Rj3GpdDPknm6Kf1IDXg2Upw==",
+  "dgSpecHash": "C/+c17tu7Qo6AoOc/2igF6m/QHo25htwzDU2RolEPAb63/bjtyVbPNl19IlXyDyZeQOCtmX3in/qEPr8dWp53g==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\HolidaySearch-1\\HolidaySearch\\HolidaySearch.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Hassan\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
