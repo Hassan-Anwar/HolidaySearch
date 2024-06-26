@@ -1,17 +1,12 @@
-d:\GitHub\HolidaySearch-1\HolidaySearch\bin\Debug\net7.0\HolidaySearch.exe
 d:\GitHub\HolidaySearch-1\HolidaySearch\bin\Debug\net7.0\HolidaySearch.deps.json
-d:\GitHub\HolidaySearch-1\HolidaySearch\bin\Debug\net7.0\HolidaySearch.runtimeconfig.json
 d:\GitHub\HolidaySearch-1\HolidaySearch\bin\Debug\net7.0\HolidaySearch.dll
 d:\GitHub\HolidaySearch-1\HolidaySearch\bin\Debug\net7.0\HolidaySearch.pdb
-d:\GitHub\HolidaySearch-1\HolidaySearch\bin\Debug\net7.0\Newtonsoft.Json.dll
 d:\GitHub\HolidaySearch-1\HolidaySearch\obj\Debug\net7.0\HolidaySearch.csproj.AssemblyReference.cache
 d:\GitHub\HolidaySearch-1\HolidaySearch\obj\Debug\net7.0\HolidaySearch.GeneratedMSBuildEditorConfig.editorconfig
 d:\GitHub\HolidaySearch-1\HolidaySearch\obj\Debug\net7.0\HolidaySearch.AssemblyInfoInputs.cache
 d:\GitHub\HolidaySearch-1\HolidaySearch\obj\Debug\net7.0\HolidaySearch.AssemblyInfo.cs
 d:\GitHub\HolidaySearch-1\HolidaySearch\obj\Debug\net7.0\HolidaySearch.csproj.CoreCompileInputs.cache
-d:\GitHub\HolidaySearch-1\HolidaySearch\obj\Debug\net7.0\HolidaySearch.csproj.CopyComplete
 d:\GitHub\HolidaySearch-1\HolidaySearch\obj\Debug\net7.0\HolidaySearch.dll
 d:\GitHub\HolidaySearch-1\HolidaySearch\obj\Debug\net7.0\refint\HolidaySearch.dll
 d:\GitHub\HolidaySearch-1\HolidaySearch\obj\Debug\net7.0\HolidaySearch.pdb
-d:\GitHub\HolidaySearch-1\HolidaySearch\obj\Debug\net7.0\HolidaySearch.genruntimeconfig.cache
 d:\GitHub\HolidaySearch-1\HolidaySearch\obj\Debug\net7.0\ref\HolidaySearch.dll

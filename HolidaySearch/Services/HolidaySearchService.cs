@@ -26,9 +26,19 @@ namespace HolidaySearch.Services
                             && f.To == travelingTo
                             && f.DepartureDate == departureDate).ToList();
 
+            if (matchingFlights.Count == 0)
+            {
+                Console.WriteLine("No matching flights found.");
+            }
+
             var matchingHotels = Hotels.Where(h => h.LocalAirports.Contains(travelingTo)
                             && h.ArrivalDate == departureDate
                             && h.Nights == duration).ToList();
+
+            if (matchingHotels.Count == 0)
+            {
+                Console.WriteLine("No matching hotels found.");
+            }
 
             var holidays = new List<Package>();
 
@@ -38,6 +48,11 @@ namespace HolidaySearch.Services
                 {
                     holidays.Add(new Package { Flight = flight, Hotel = hotel });
                 }
+            }
+
+            if (holidays.Count == 0)
+            {
+                Console.WriteLine("No matching holidays found.");
             }
 
             return holidays.OrderBy(h => h.TotalPrice).ToList();

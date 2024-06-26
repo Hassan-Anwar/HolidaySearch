@@ -1,8 +1,5 @@
 d:\GitHub\HolidaySearch-1\HolidaySearch.Tests\bin\Debug\net7.0\CoverletSourceRootsMapping
 d:\GitHub\HolidaySearch-1\HolidaySearch.Tests\bin\Debug\net7.0\testhost.dll
-d:\GitHub\HolidaySearch-1\HolidaySearch.Tests\bin\Debug\net7.0\HolidaySearch.deps.json
-d:\GitHub\HolidaySearch-1\HolidaySearch.Tests\bin\Debug\net7.0\HolidaySearch.runtimeconfig.json
-d:\GitHub\HolidaySearch-1\HolidaySearch.Tests\bin\Debug\net7.0\HolidaySearch.exe
 d:\GitHub\HolidaySearch-1\HolidaySearch.Tests\bin\Debug\net7.0\testhost.exe
 d:\GitHub\HolidaySearch-1\HolidaySearch.Tests\bin\Debug\net7.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 d:\GitHub\HolidaySearch-1\HolidaySearch.Tests\bin\Debug\net7.0\xunit.runner.reporters.netcoreapp10.dll
