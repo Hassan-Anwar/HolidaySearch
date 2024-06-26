@@ -49,12 +49,7 @@ namespace HolidaySearch.Services
                     holidays.Add(new Package { Flight = flight, Hotel = hotel });
                 }
             }
-
-            if (holidays.Count == 0)
-            {
-                Console.WriteLine("No matching holidays found.");
-            }
-
+            
             return holidays.OrderBy(h => h.TotalPrice).ToList();
         }
     }
