@@ -16,6 +16,12 @@ namespace HolidaySearch.Services
 
         public List<Package> SearchHolidays(string departingFrom, string travelingTo, DateTime departureDate, int duration)
         {
+
+            if (Flights == null || Hotels == null)
+            {
+                throw new InvalidOperationException("Flights or Hotels data is not loaded.");
+            }
+
             var matchingFlights = Flights.Where(f => (departingFrom == "Any" || f.From == departingFrom)
                             && f.To == travelingTo
                             && f.DepartureDate == departureDate).ToList();
