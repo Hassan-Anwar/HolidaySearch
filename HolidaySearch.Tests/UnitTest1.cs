@@ -13,7 +13,7 @@ namespace HolidaySearch.Tests
 
         public HolidaySearchServiceTests()
         {
-            string flightsJsonPath = Path.Combine(AppContext.BaseDirectory, "shared", "flights.json");
+            string flightsJsonPath = Path.Combine(AppContext.BaseDirectory, "shared", "flight.json");
             string hotelsJsonPath = Path.Combine(AppContext.BaseDirectory, "shared", "hotels.json");
             _holidaySearchService = new HolidaySearchService(flightsJsonPath, hotelsJsonPath);
         }

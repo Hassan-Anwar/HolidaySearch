@@ -103,3 +103,5 @@ d:\GitHub\HolidaySearch-1\HolidaySearch.Tests\obj\Debug\net7.0\refint\HolidaySea
 d:\GitHub\HolidaySearch-1\HolidaySearch.Tests\obj\Debug\net7.0\HolidaySearch.Tests.pdb
 d:\GitHub\HolidaySearch-1\HolidaySearch.Tests\obj\Debug\net7.0\HolidaySearch.Tests.genruntimeconfig.cache
 d:\GitHub\HolidaySearch-1\HolidaySearch.Tests\obj\Debug\net7.0\ref\HolidaySearch.Tests.dll
+D:\GitHub\HolidaySearch-1\HolidaySearch.Tests\bin\Debug\net7.0\shared\hotels.json
+D:\GitHub\HolidaySearch-1\HolidaySearch.Tests\bin\Debug\net7.0\shared\flight.json
