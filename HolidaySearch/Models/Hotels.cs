@@ -9,7 +9,7 @@ namespace HolidaySearch.Models
         public string Name { get; set; }
         public DateTime ArrivalDate { get; set; }
         public decimal PricePerNight { get; set; }
-        public string LocalAirports { get; set; }
+        public List<string> LocalAirports { get; set; }
         public int Nights { get; set; }
     }
 }

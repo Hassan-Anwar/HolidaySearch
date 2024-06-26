@@ -26,5 +26,15 @@ namespace HolidaySearch.Tests
             Assert.Equal(2, bestHoliday.Flight.Id);
             Assert.Equal(9, bestHoliday.Hotel.Id);
         }
+        
+        [Fact]
+        public void Test_Customer2()
+        {
+            var results = _holidaySearchService.SearchHolidays("Any", "PMI", new DateTime(2023, 6, 15), 10);
+            Assert.NotEmpty(results);
+            var bestHoliday = results.First();
+            Assert.Equal(6, bestHoliday.Flight.Id);
+            Assert.Equal(5, bestHoliday.Hotel.Id);
+        }
     }
 }
